@@ -1,0 +1,7 @@
+node_modules
+public/js/*bundle.js
+public/js/*bundle.js.map
+.vscode
+.chrome
+conair-portal.log*
+.eslintcache

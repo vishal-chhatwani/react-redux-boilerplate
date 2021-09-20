@@ -1,0 +1,39 @@
+
+// Base
+
+// @import "colors";
+// @import "common";
+// @import "constants";
+// @import "buttons";
+
+html,
+body {
+  background: #f4f4f4;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app-conatiner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.not-found-ctn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  .not-found {
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
+// Pages
+// @import "header";
+
+// Components
+

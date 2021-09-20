@@ -1,0 +1,48 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended", "google", "prettier"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "impliedStrict": true
+      }
+    },
+    "globals": {
+      "google": true,
+      "document": true,
+      "window": true
+    },
+    "plugins": ["react-hooks", "react", "enzyme", "prettier"],
+    "rules": {
+      "guard-for-in": "off",
+      "no-invalid-this": "off",
+      "react/prop-types": "off",
+      "require-jsdoc": "off",
+      "valid-jsdoc": "off",
+      "prefer-const": 2,
+      "strict": ["error", "global"],
+      "react/display-name": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/no-string-refs": "warn",
+      "prettier/prettier": "error",
+      "no-dupe-else-if": 0,
+      "no-import-assign": 0,
+      "no-setter-return": 0
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "env": {
+      "mocha": true,
+      "node": true,
+      "browser": true,
+      "es6": true,
+      "jest": true
+    }
+  }
+  
