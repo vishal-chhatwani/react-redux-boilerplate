@@ -1,4 +1,4 @@
-# react-redux-boilerplate
+# [react-redux-boilerplate](https://vishal-chhatwani.github.io/react-redux-boilerplate/)
 
 This is the boilerplate that contains all the pieces you would need to get started on building a React app including:
 
